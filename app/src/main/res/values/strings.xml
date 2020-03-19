@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">My Wallet</string>
+
+    <string name="pmsg">Catergories</string>
+
+    <string name="gtxtv1">DAILY EXPENSE AND INCOME</string>
+    <string name="gtxtv2">Display</string>
+    <string name="gtxtv3">ADD INCOME</string>
+    <string name="gtxtv4">ADD EXPENSE</string>
+    <string name="gtxtv5">Enter Income</string>
+    <string name="gtxtv6">Enter Expense</string>
+    <string name="gtxtv7">Category</string>
+    <string name="gtxtv8">Category</string>
+    <string name="gtxtv9">Income</string>
+    <string name="gtxtv10">Expense</string>
+    <string name="gtxtv11">Edit Expense</string>
+    <string name="gtxtv12">Edit Income</string>
+    <string name="gbtn1">OK</string>
+
+
+    <string name="tbtn">Expensses details</string>
+    <string name="tbtn1">Income details</string>
+    <string name="tbtn2">HOME</string>
+    <string name="tbtn3">EXPENSES</string>
+    <string name="tbtn4">INCOME</string>
+    <string name="tbtn5">REPORT</string>
+    <string name="tbtn6">ADD ACCOUNT</string>
+    <string name="tbtn7">EDIT </string>
+    <string name="ttxt7">Account Type: </string>
+    <string name="ttxt8">Account Ammount: </string>
+
+
+    <string name="pmsg5">Category</string>
+    <string name="pbtn4">Income</string>
+    <string name="pbtn5">Expenses</string>
+    <string name="pbtn6">Expenses Categories</string>
+    <string name="pbtn7">Income Categories</string>
+    <string name="pmsg6">Add Category</string>
+    <string name="pbtn8">ADD</string>
+    <string name="pmsg7">Category</string>
+    <string name="pmsg9">Enter Category Name</string>
+    <string name="pbtn9">Delete</string>
+    <string name="pbtn10">Update</string>
+    <string name="pmsg10">Delete Category</string>
+    <string name="pmsg11">Select a Category</string>
+    <string name="btn11">Delete</string>
+    <string name="pmsg12">Update Category</string>
+    <string name="pmsg13">Select  Expencess Category to Update</string>
+    <string name="btn12">Update</string>
+
+    <string name="pbtn13">Delete</string>
+    <string name="btn14">Update</string>
+    <string name="ishuAdd">ADD</string>
+    <string name="ishuUpdate">UPDATE</string>
+    <string name="ishubtnlabel">Add Income Category</string>
+    <string name="ishulabel22">Add Expenses Category</string>
+    <string-array name="UpdateCat">
+        <item>Fav category</item>
+        <item>Daily category</item>
+        <item>monthly category</item>
+
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.student.mywallet">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Botton_bottum"></activity>
+        <activity android:name=".Income_update_acount" />
+        <activity android:name=".ExpensesEditAcount" />
+        <activity android:name=".EditIncome" />
+        <activity android:name=".EditExpense" />
+        <activity android:name=".IncomeCatSetting" />
+        <activity android:name=".ExpensesCatSetings" />
+        <activity android:name=".DasboardIncomeCate" />
+        <activity android:name=".DashboardExpensesCate" />
+        <activity android:name=".Income_accounteditdelete" />
+        <activity android:name=".Income_add_account" />
+        <activity android:name=".Income_account" />
+        <activity android:name=".Acoounteditupdate" />
+        <activity android:name=".AddAccount" />
+        <activity android:name=".Account" />
+        <activity android:name=".Income_details" />
+        <activity android:name=".Expensses_details" />
+        <activity android:name=".My_Wallet_Repot" />
+        <activity android:name=".Daily" />
+        <activity
+            android:name=".splashmywallet"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Add" />
+        <activity android:name=".Categories" />
+        <activity android:name=".AddExpenses" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
