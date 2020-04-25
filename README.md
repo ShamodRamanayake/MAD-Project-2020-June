@@ -1,4 +1,3 @@
 # MAD-Project-2020-June
 MAD Group Project
-Our two pc's are broken & due to vacation resons we cant rebuld that .we took our project in google drive and upload the git hub one to
-full of project with lite databses..
+Before the Curfew vacation we started working on the project. And also Because of we were Prorate students we completed it an uploaded to the google drive. At the beginning we had only two laptops to work on. So we after on took the project from the Google drive and uploaded it to the Github. Please excuse us for lack of commits or any other issue.
