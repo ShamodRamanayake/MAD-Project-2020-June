@@ -6,7 +6,7 @@ public final class WalletUserMaster {
 
     private WalletUserMaster(){ }
 
-    /*------------------------------------Gayani---------------------------------------------------------------*/
+    /*---------------------------------------------------------------------------------------------*/
     protected static class Addexpences implements BaseColumns{
         protected static final String TABLE_NAME_ADDEXPENCES = "addexpences";
 
@@ -30,7 +30,7 @@ public final class WalletUserMaster {
 
     }
 
-    //prabhashi's methods=========================================================================
+    //=======================================================================
 
     protected static  class IncomeCategory implements  BaseColumns{
         protected  static  final String TABLE_NAME_INCOME = "income";
@@ -39,7 +39,7 @@ public final class WalletUserMaster {
 
 
 
-    /*----------------------------Thenuak-----------------------*/
+    /*---------------------------------------------------*/
 
     protected static class AddAcountCategory implements BaseColumns {
         protected static final String TABLE_NAME_ACCOUNT = "account";
@@ -56,7 +56,7 @@ public final class WalletUserMaster {
 
     }
 
-    /*----------------------------end Thenuak-----------------------*/
+    /*---------------------------------------------------*/
     protected static  class ExpensesCategory implements  BaseColumns{
         protected  static  final String TABLE_NAME_Expenses = "income";
         protected  static  final String COLUMN_NAME_EXPENSESNAME = "name";
