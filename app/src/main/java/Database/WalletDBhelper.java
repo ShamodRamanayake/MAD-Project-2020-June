@@ -36,7 +36,7 @@ public class WalletDBhelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
 
-        /*----------------------------prabhashi-----------------------*/
+        /*---------------------------------------------------*/
 
         String crete_table_income = "CREATE TABLE " + WalletUserMaster.IncomeCategory.TABLE_NAME_INCOME + " (" +
                 WalletUserMaster.IncomeCategory._ID + " INTEGER PRIMARY KEY, " +
@@ -44,9 +44,9 @@ public class WalletDBhelper extends SQLiteOpenHelper {
 
         db.execSQL(crete_table_income);
 
-        /*----------------------------end prabhashi-----------------------*/
+        /*-------------------------------------------------*/
 
-        /***********************************************************   Gayani   *******************************************************************/
+        /****************************************************************************************************************************/
 
         String create_table_addexpences = "CREATE TABLE " + WalletUserMaster.Addexpences.TABLE_NAME_ADDEXPENCES + " ( " +
                 WalletUserMaster.Addexpences.COLUMN_NAME_ID + " INTEGER PRIMARY KEY AUTOINCREMENT , " +
@@ -66,7 +66,7 @@ public class WalletDBhelper extends SQLiteOpenHelper {
 
         db.execSQL(create_table_addincome);
 
-        /*------------------------------Thenuka -----------------------------------------------------------------------*/
+        /*----------------------------------------------------------------------------------------------------*/
 
         String create_table_addAcount = "CREATE TABLE " + WalletUserMaster.AddAcountCategory.TABLE_NAME_ACCOUNT + " (" +
                 WalletUserMaster.AddAcountCategory._ID + " INTEGER PRIMARY KEY AUTOINCREMENT , " +
@@ -82,7 +82,7 @@ public class WalletDBhelper extends SQLiteOpenHelper {
 
         db.execSQL(create_table_addIncomeAcount);
 
-        /*------------------------------end Thenuka -----------------------------------------------------------------------*/
+        /*-----------------------------------------------------------------------------------------------------*/
 
     }
 
@@ -91,7 +91,7 @@ public class WalletDBhelper extends SQLiteOpenHelper {
 
     }
 
-    /***********************************************************  Gayani   *******************************************************************/
+    /******************************************************************************************************************************/
 
     public boolean addExpences(String expences, String note, String category) {
         SQLiteDatabase db = getWritableDatabase();
@@ -233,10 +233,10 @@ public class WalletDBhelper extends SQLiteOpenHelper {
     }
 
 
-    /***********************************************************  End  Gayani  *******************************************************************/
+    /******************************************************************************************************************************/
 
 
-    //prabhashi's methods=========================================================================
+    //======================================================================
 
     //add expenses categoory
     public boolean addCategoryOsu(String name) {
@@ -371,7 +371,7 @@ public class WalletDBhelper extends SQLiteOpenHelper {
 
 
 
-    /*---------------------------thenuka------------------------------------------*/
+    /*---------------------------------------------------------------------*/
 
     public boolean addAccountCategory(String acounttype, String amount) {
         SQLiteDatabase db = getWritableDatabase();
@@ -541,7 +541,7 @@ public class WalletDBhelper extends SQLiteOpenHelper {
 
     }*/
 
-    /*---------------------------end thenuka------------------------------------------*/
+    /*-----------------------------------------------------------------*/
 
 
     public boolean addIncomeCategory(String name) {
@@ -652,6 +652,6 @@ public class WalletDBhelper extends SQLiteOpenHelper {
 
     }
 
-    //=========================end prabashi's methods=============================================
+    //=====================================================================
 
 }
